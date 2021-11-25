@@ -15,6 +15,7 @@ import { Calendar } from "features/calendar";
 import { AdminLogin, AdminPage } from "features/admin";
 import { AppTasks } from "features/task";
 import { QnA, QnaList } from "features/qna";
+import DiaryTest from "features/diary/components/DiaryTest";
 //Attempted import error: 'Action' is not exported from 'history'. histroy 버전 5로 업.
 //yarn add craco-alias @craco/craco
 
@@ -27,7 +28,7 @@ const App = () => {
         <Route path="/users/login" element={<UserLogin />} />
         {/* <Route path='/users/removePwd' element={<ForgotPassword/>}/> */}
         <Route path='/users/join' element={<UserRegister />} />
-        <Route path='/diary/diary' element={<Diary />} />
+        <Route path='/diary/diary' element={<DiaryTest />} />
         <Route path='/review/review' element={<Review />} />
         <Route path='/history/history' element={<History />} />
         <Route path='/todo/about' element={<About />} />

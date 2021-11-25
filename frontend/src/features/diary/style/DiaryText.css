@@ -8,6 +8,13 @@
   width: 1645px;
 }
 
+.diary-pencil {
+  width: 20px;
+  cursor: pointer;
+  z-index: 9999;
+  display: block;
+}
+
 .manuscript {
   font-size: 16px;
   line-height: 32px;
@@ -41,22 +48,8 @@
   margin-top: 8px;
 }
 
-.manuscript > :empty:not(img) {
-  height: 32px;
-  margin-bottom: 8px;
-}
-
 .manuscript > :last-child {
   margin-bottom: 0;
-}
-
-.manuscript > img {
-  display: block;
-  width: auto;
-  max-width: 100%;
-  margin: 0 auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .manuscript > *:not(:last-child) {

@@ -3,11 +3,22 @@
     --bg-transparent: rgba(255, 255, 255, 0);
     --border-color: wheat;
 }
-.manuscript-all {
-    width: 1645px;
-}
 
+.manuscript-all {
+    width: 100%;
+    margin: auto;
+    
+}
+.diary-pencil{
+    margin-left: 20px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 9999;
+    display: block;
+}
 .manuscript {
+    width: 100%;
+    margin: auto;
     font-size: 16px;
     line-height: 32px;
     padding: 8px 0;
@@ -118,21 +129,10 @@
     
 }
 
-.manuscript > :empty:not(img) {
-    height: 32px;
-    margin-bottom: 8px;
-}
+
 
 .manuscript > :last-child {
     margin-bottom: 0;
-}
-
-.manuscript > img {
-    display: block;
-    width: auto;
-    max-width: 100%;
-    margin: 0 auto;
-    object-fit: cover;
 }
 
 .manuscript > *:not(:last-child) {

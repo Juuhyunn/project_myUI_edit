@@ -13,6 +13,8 @@ export default function Timeline() {
           <TimelineAdd/>
           {/* <TimelineLog/>를 for문으로 돌려서 뽑아야할것같슘댱 */}
           <TimelineLog/>
+          <TimelineLog/>
+          <TimelineLog/>
         </TimelineItemContainer>
       </TimelineList>
     </Container>
