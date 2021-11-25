@@ -1,0 +1,42 @@
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.QnA-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+    
+}
+.QnA-container > div {
+    padding: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-items: stretch;
+    align-content: space-evenly;
+    align-content: stretch
+
+}
+.QnA-header {
+    grid-column: 1 / 4;
+}
+.QnA-footer {
+    grid-column: 1 / 4;
+}
+.QnA-main{
+    grid-row:2 / 4;
+    grid-column: 2 / 4;
+}
+.QnA-menu{
+    grid-row:2 / 4;
+}
+.QnA-item1{
+    grid-column: 1 / 4;
+}

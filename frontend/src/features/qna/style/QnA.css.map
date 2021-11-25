@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;CACjB",
+    "sources": [
+        "QnA.scss"
+    ],
+    "names": [],
+    "file": "QnA.css"
+}
